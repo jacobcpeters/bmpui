@@ -1,0 +1,9 @@
+{
+  "name": "bmpui",
+  "version": "0.2.0",
+  "description": "Javascript library to create bitmap user interfaces for e-paper devices",
+  "type": "module",
+  "main": "index.js",
+  "author": "Jacob Peters",
+  "license": "MIT"
+}
