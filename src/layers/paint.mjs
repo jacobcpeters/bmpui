@@ -6,6 +6,8 @@ export default class PaintLayer extends Layer {
   static name = 'PaintLayer';
   constructor(options) {
     super(options);
+
+    this.content = this.optionOrDefault('paintCmd', options, []);
   }
 
   drawPoint(x, y, value = 1) {
